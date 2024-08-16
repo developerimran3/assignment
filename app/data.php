@@ -41,12 +41,136 @@ $banner=[
     [
         "image"     =>"https://www.shutterstock.com/image-photo/table-food-top-view-260nw-467823860.jpg",
         "title"     =>"চিকেন বিরিয়ানি ",
-        "disc"      =>"চিকেন বিরিয়ানি রেসিপি – আমাদের দেশে সবচেয়ে জনপ্রিয় রেসিপিগুলোর মধ্যে একটি হলো বিরিয়ানি। ভোজনরসিক বাঙ্গালীদেরতো বিরিয়ানির নাম শুনলেই জিভে জল চলে আসে। এখনতো বিভিন্ন উৎসব ও অনুষ্ঠানে বিরিয়ানির চল বেশ জনপ্রিয় হয়ে উঠেছে। তবে চলুন রেস্টুরেন্ট নয়,ঘরে বসে বাড়িতেই বানিয়ে নেওয়া যাক স্পেশাল চিকেন বিরিয়ানি রেসিপিটি। দেখবেন বাইরের স্বাদ একেবারে ভুলে গেছেন।",
+        "disc"      =>"চিকেন বিরিয়ানি রেসিপি আমাদের দেশে সবচেয়ে জনপ্রিয় রেসিপিগুলোর মধ্যে একটি হলো বিরিয়ানি। ভোজনরসিক বাঙ্গালীদেরতো বিরিয়ানির নাম শুনলেই জিভে জল চলে আসে। এখনতো বিভিন্ন উৎসব ও অনুষ্ঠানে বিরিয়ানির চল বেশ জনপ্রিয় হয়ে উঠেছে। ঘরে বসে বাড়িতেই বানিয়ে নেওয়া যাক স্পেশাল চিকেন বিরিয়ানি রেসিপিটি। ",
     ],
 
 ];
 
             
+$headingText=[
+
+    "title"        => "“Your awesome company slogan goes here, we have the best food around” ",
+    "subtitle"     => "Unc elementum lacus in gravida pellentesque urna dolor eleifend felis eleifend
+ ",
+];
+
+$welcome=[
+    "title"        => "স্বাগতম ",
+    "subtitle"     => "Unc elementum lacus in gravida pellentesque urna dolor eleifend felis eleifend
+ ",
+];
+
+
+$menucard=[
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+
+[
+    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
+    "card"          => "Menu Card",
+    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+    "btn"           => [
+                        "title"     =>"Read More",
+                        "link"      =>"#",
+                       ],
+],
+
+
+];
+
+
+
+
 
 ?>
 
