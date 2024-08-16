@@ -134,21 +134,18 @@ if ( file_exists( __DIR__ .'/autoload.php')){
 						<span><?php echo $welcome ["subtitle"];?></span>
 					</div>
 					<div class="row">
-					
+					<?php foreach ($menucard as $item):?>
 						<div class="col-1-3">
-						
 							<div class="wrap-col">
-
-								<?php foreach ($menucard as $item):?>
 								<div class="box-item">
 									<span class="ribbon"><?php echo $item["card"]; ?><b></b></span>
 									<img src="<?php echo $item["photo"]; ?>" alt="">
 									<p><?php echo $item["desc"]; ?></p>
 									<a href="<?php echo $item["btn"]["link"]; ?>" class="button button-1"><?php echo $item["btn"]["title"]; ?></a>
 								</div>
-								<?php endforeach;?>
 							</div>
 						</div>
+						<?php endforeach;?>
 					</div>
 				</div>
 			</div>
