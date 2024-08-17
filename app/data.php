@@ -171,6 +171,30 @@ $menucard=[
 
 
 
+$homeFooter=[
+        "side1" => [
+            "title"     => "Customer Testimonials",
+            "name"      => "Nick Roach",
+            "photo"     => "https://thumbs.dreamstime.com/b/young-indian-man-happy-outdoors-looking-camera-39595562.jpg",
+
+            "size"      => "width= 100px",
+            "desc"      => "Pellentesque elementum leo et justo dapibus convalli. In justo nibh, congue nec dapibus ac, placerat eget sem. Nunc consequat felis non elit ultricies in varius massa laoreet. Aenean lectus nisl, ellentesque in fermentum sit amet, convallis a lorem condimentum mollis. Aenean lectus nisl, ellentesque in fermentum sit amet.",
+                 
+        ],
+        "side2" => [
+            "title"     => "Location",
+            "map"       => "https://maps.app.goo.gl/FbMb6ETDbTEiFg8o9",
+        ],
+        
+        "side3" => [
+            "title"         => "Open Daily",
+            "timeZone"      => "Nick Roach",
+            "heading"       => "Need help getting home?",
+            "desc"          => "We will call a cab for you!",
+        ]
+
+];
+
 
 ?>
 
