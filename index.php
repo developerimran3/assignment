@@ -159,11 +159,11 @@ if ( file_exists( __DIR__ .'/autoload.php')){
 		<div class="row">
 			<div class="col-1-3">
 				<div class="wrap-col">
-					<h4><?php echo $homeFooter["side1"]['title'] ?></h4>
+					<h4><?php echo $footer["side1"]['title'] ?></h4>
 					<div class="row">
 						<img src="images/a-1.jpg">
-						<h5><?php echo $homeFooter["side1"]['name'] ?></h5>
-						<p><?php echo $homeFooter["side1"]['desc'] ?>.</p>
+						<h5><?php echo $footer["side1"]['name'] ?></h5>
+						<p><?php echo $footer["side1"]['desc'] ?>.</p>
 					</div>
 				</div>
 			</div>
@@ -175,23 +175,24 @@ if ( file_exists( __DIR__ .'/autoload.php')){
 			</div>
 			<div class="col-1-3">
 				<div class="wrap-col">
-					<h4><?php echo $homeFooter["side3"]["title"] ?></h4>
+					<h4><?php echo $footer["side3"]["title"] ?></h4>
 					<p><span>mon.</span> 17:00 - 21:00</p>
 					<p><span>tue.-wed.</span> 16:30 – 21:00</p>
 					<p><span>thu.-sat.</span> 16:30 – 21:00</p>
 					<p><span>sun.</span> 11:00 – 21:00</p>
-					<p><span><?php echo $homeFooter["side3"]["heading"] ?></span></br>
-					<?php echo $homeFooter["side3"]["desc"] ?></p>
+					<p><span><?php echo $footer["side3"]["heading"] ?></span></br>
+					<?php echo $footer["side3"]["desc"] ?></p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="copyright">
 		<div class="wrapper">
-			Copyright 2015 - Designed by <a href="https://www.zerotheme.com">ZEROTHEME</a>
-			<ul class="quick-link f-right">
+				<?php echo $footer["copyright"]["text"] ?> <a href="<?php echo $footer["copyright"]["link"] ?>"><?php echo $footer["copyright"]["title"] ?></a>
+				<ul class="quick-link f-right">
+				<?php foreach ($footer as $link):?>
 				<li><a href="#">Privacy Policy</a></li>
-				<li><a href="#">Terms of Use</a></li>
+				<?php endforeach;?>
 			</ul>
 		</div>
 	</div>

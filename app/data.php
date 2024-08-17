@@ -171,7 +171,7 @@ $menucard=[
 
 
 
-$homeFooter=[
+$footer=[
         "side1" => [
             "title"     => "Customer Testimonials",
             "name"      => "Nick Roach",
@@ -191,9 +191,25 @@ $homeFooter=[
             "timeZone"      => "Nick Roach",
             "heading"       => "Need help getting home?",
             "desc"          => "We will call a cab for you!",
+        ],
+        "copyright" => [
+            "text"          => "Copyright 2024 - Designed by",
+            "link"          => "#",
+            "title"         => "IMRAN",
+            "quick-link"    => [
+                                "title"     =>"Privacy Policy",
+                                "link"      =>"#",
+                               ],
+                               [
+                                "title"     =>"Terms of Use",
+                                "link"      =>"#",
+                               ],
         ]
 
+
 ];
+
+
 
 
 ?>
