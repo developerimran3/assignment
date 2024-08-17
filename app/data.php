@@ -144,26 +144,10 @@ $menucard=[
                        ],
 ],
 
-[
-    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
-    "card"          => "Menu Card",
-    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
-    "btn"           => [
-                        "title"     =>"Read More",
-                        "link"      =>"#",
-                       ],
-],
 
 
-[
-    "photo"         => "https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?b=1&s=612x612&w=0&k=20&c=Mn_EPBAGwtzh5K6VyfDmd7Q5eJFXSHhGWVr3T4WDQRo=",
-    "card"          => "Menu Card",
-    "desc"          => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
-    "btn"           => [
-                        "title"     =>"Read More",
-                        "link"      =>"#",
-                       ],
-],
+
+
 
 
 ];
@@ -196,20 +180,25 @@ $footer=[
             "text"          => "Copyright 2024 - Designed by",
             "link"          => "#",
             "title"         => "IMRAN",
-            "quick-link"    => [
-                                "title"     =>"Privacy Policy",
-                                "link"      =>"#",
-                               ],
-                               [
-                                "title"     =>"Terms of Use",
-                                "link"      =>"#",
-                               ],
+            
         ]
-
 
 ];
 
-
+$quicklink=[
+            [
+             "title"     =>"Privacy Policy",
+             "link"      =>"#",
+            ],
+            [
+             "title"     =>"Terms of Use",
+             "link"      =>"#",
+            ],
+            [
+                "title"     =>"Menu",
+                "link"      =>"#",
+               ],
+];
 
 
 ?>

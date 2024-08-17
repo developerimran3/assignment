@@ -189,9 +189,9 @@ if ( file_exists( __DIR__ .'/autoload.php')){
 	<div class="copyright">
 		<div class="wrapper">
 				<?php echo $footer["copyright"]["text"] ?> <a href="<?php echo $footer["copyright"]["link"] ?>"><?php echo $footer["copyright"]["title"] ?></a>
-				<ul class="quick-link f-right">
-				<?php foreach ($footer as $link):?>
-				<li><a href="#">Privacy Policy</a></li>
+			<ul class="quick-link f-right">
+				<?php foreach ($quicklink as $item):?>
+				<li><a href="<?php echo $item["link"] ?>"> <?php echo $item["title"] ?></a></li>
 				<?php endforeach;?>
 			</ul>
 		</div>
