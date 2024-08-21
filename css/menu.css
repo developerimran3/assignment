@@ -13,7 +13,8 @@ nav.cmn-tile-nav ul {
 nav.cmn-tile-nav li {
   display: block;
   overflow: hidden;
-  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
   text-shadow: -1px 1px rgba(0, 0, 0, 0.3);
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
@@ -29,27 +30,27 @@ nav.cmn-tile-nav a {
   -o-transition: background 0.3s, -o-transform 0.3s;
   transition: background 0.3s, transform 0.3s;
   text-transform: uppercase;
-  font-family: 'Goudy Bookletter 1911',Georgia,serif;
+  font-family: "Goudy Bookletter 1911", Georgia, serif;
 }
 nav.cmn-tile-nav a:after,
 nav.cmn-tile-nav a:before {
-    content: '';
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 100%;
-	-webkit-transition: border 0.3s, -webkit-transform 0.3s;
-	-moz-transition: border 0.3s, -moz-transform 0.3s;
-	-o-transition: border 0.3s, -o-transform 0.3s;
-	transition: border 0.3s, transform 0.3s;
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 100%;
+  -webkit-transition: border 0.3s, -webkit-transform 0.3s;
+  -moz-transition: border 0.3s, -moz-transform 0.3s;
+  -o-transition: border 0.3s, -o-transform 0.3s;
+  transition: border 0.3s, transform 0.3s;
 }
 nav.cmn-tile-nav a:after {
-    border-left: 85px solid transparent;
-    right: 0px;
+  border-left: 85px solid transparent;
+  right: 0px;
 }
 nav.cmn-tile-nav a:before {
-    border-right: 90px solid transparent;
-    left: 0px;
+  border-right: 90px solid transparent;
+  left: 0px;
 }
 nav.cmn-tile-nav a:hover {
   -webkit-transform: translateX(20px);
@@ -59,123 +60,147 @@ nav.cmn-tile-nav a:hover {
   transform: translateX(20px);
 }
 nav.cmn-tile-nav li.colour-1 {
-  background-color: #E4000D;
+  background-color: #e4000d;
 }
-nav.cmn-tile-nav li.colour-1 a:after,nav.cmn-tile-nav li.colour-1 a:before{
-   border-top: 27px solid #E4000D;
+nav.cmn-tile-nav li.colour-1 a:after,
+nav.cmn-tile-nav li.colour-1 a:before {
+  border-top: 27px solid #e4000d;
 }
 nav.cmn-tile-nav li.colour-1 a {
-  background-color: #E4000D;
+  background-color: #e4000d;
 }
-nav.cmn-tile-nav li.colour-1:hover, nav.cmn-tile-nav li.colour-1:hover a {
+nav.cmn-tile-nav li.colour-1:hover,
+nav.cmn-tile-nav li.colour-1:hover a {
   background-color: #941212;
 }
-nav.cmn-tile-nav li.colour-1:hover a:after, nav.cmn-tile-nav li.colour-1:hover a:before{
+nav.cmn-tile-nav li.colour-1:hover a:after,
+nav.cmn-tile-nav li.colour-1:hover a:before {
   border-top: 27px solid #941212;
 }
 nav.cmn-tile-nav li.colour-2 {
   background-color: #be0a0a;
 }
-nav.cmn-tile-nav li.colour-2 a:after,nav.cmn-tile-nav li.colour-2 a:before{
-   border-top: 27px solid #be0a0a;
+nav.cmn-tile-nav li.colour-2 a:after,
+nav.cmn-tile-nav li.colour-2 a:before {
+  border-top: 27px solid #be0a0a;
 }
 nav.cmn-tile-nav li.colour-2 a {
   background-color: #be0a0a;
 }
-nav.cmn-tile-nav li.colour-2:hover, nav.cmn-tile-nav li.colour-2:hover a {
+nav.cmn-tile-nav li.colour-2:hover,
+nav.cmn-tile-nav li.colour-2:hover a {
   background-color: #5d0507;
 }
-nav.cmn-tile-nav li.colour-2:hover a:after, nav.cmn-tile-nav li.colour-2:hover a:before{
+nav.cmn-tile-nav li.colour-2:hover a:after,
+nav.cmn-tile-nav li.colour-2:hover a:before {
   border-top: 27px solid #5d0507;
 }
 nav.cmn-tile-nav li.colour-3 {
   background-color: #a00000;
 }
-nav.cmn-tile-nav li.colour-3 a:after,nav.cmn-tile-nav li.colour-3 a:before{
-   border-top: 27px solid #a00000;
+nav.cmn-tile-nav li.colour-3 a:after,
+nav.cmn-tile-nav li.colour-3 a:before {
+  border-top: 27px solid #a00000;
 }
 nav.cmn-tile-nav li.colour-3 a {
   background-color: #a00000;
 }
-nav.cmn-tile-nav li.colour-3:hover, nav.cmn-tile-nav li.colour-3:hover a {
+nav.cmn-tile-nav li.colour-3:hover,
+nav.cmn-tile-nav li.colour-3:hover a {
   background-color: #3a0000;
 }
-nav.cmn-tile-nav li.colour-3:hover a:after, nav.cmn-tile-nav li.colour-3:hover a:before{
+nav.cmn-tile-nav li.colour-3:hover a:after,
+nav.cmn-tile-nav li.colour-3:hover a:before {
   border-top: 27px solid #3a0000;
 }
 nav.cmn-tile-nav li.colour-4 {
   background-color: #780000;
 }
-nav.cmn-tile-nav li.colour-4 a:after,nav.cmn-tile-nav li.colour-4 a:before{
-   border-top: 27px solid #780000;
+nav.cmn-tile-nav li.colour-4 a:after,
+nav.cmn-tile-nav li.colour-4 a:before {
+  border-top: 27px solid #780000;
 }
 nav.cmn-tile-nav li.colour-4 a {
   background-color: #780000;
 }
-nav.cmn-tile-nav li.colour-4:hover, nav.cmn-tile-nav li.colour-4:hover a {
+nav.cmn-tile-nav li.colour-4:hover,
+nav.cmn-tile-nav li.colour-4:hover a {
   background-color: #260000;
 }
-nav.cmn-tile-nav li.colour-4:hover a:after, nav.cmn-tile-nav li.colour-4:hover a:before{
+nav.cmn-tile-nav li.colour-4:hover a:after,
+nav.cmn-tile-nav li.colour-4:hover a:before {
   border-top: 27px solid #260000;
 }
 nav.cmn-tile-nav li.colour-5 {
   background-color: #5a0000;
 }
-nav.cmn-tile-nav li.colour-5 a:after,nav.cmn-tile-nav li.colour-5 a:before{
-   border-top: 27px solid #5a0000;
+nav.cmn-tile-nav li.colour-5 a:after,
+nav.cmn-tile-nav li.colour-5 a:before {
+  border-top: 27px solid #5a0000;
 }
 nav.cmn-tile-nav li.colour-5 a {
   background-color: #5a0000;
 }
-nav.cmn-tile-nav li.colour-5:hover, nav.cmn-tile-nav li.colour-5:hover a {
+nav.cmn-tile-nav li.colour-5:hover,
+nav.cmn-tile-nav li.colour-5:hover a {
   background-color: #000000;
 }
-nav.cmn-tile-nav li.colour-5:hover a:after, nav.cmn-tile-nav li.colour-5:hover a:before{
+nav.cmn-tile-nav li.colour-5:hover a:after,
+nav.cmn-tile-nav li.colour-5:hover a:before {
   border-top: 27px solid #000000;
 }
 nav.cmn-tile-nav li.colour-6 {
   background-color: #860000;
 }
-nav.cmn-tile-nav li.colour-6 a:after,nav.cmn-tile-nav li.colour-6 a:before{
-   border-top: 27px solid #860000;
+nav.cmn-tile-nav li.colour-6 a:after,
+nav.cmn-tile-nav li.colour-6 a:before {
+  border-top: 27px solid #860000;
 }
 nav.cmn-tile-nav li.colour-6 a {
   background-color: #860000;
 }
-nav.cmn-tile-nav li.colour-6:hover, nav.cmn-tile-nav li.colour-6:hover a {
+nav.cmn-tile-nav li.colour-6:hover,
+nav.cmn-tile-nav li.colour-6:hover a {
   background-color: #430700;
 }
-nav.cmn-tile-nav li.colour-6:hover a:after, nav.cmn-tile-nav li.colour-6:hover a:before{
+nav.cmn-tile-nav li.colour-6:hover a:after,
+nav.cmn-tile-nav li.colour-6:hover a:before {
   border-top: 27px solid #430700;
 }
 nav.cmn-tile-nav li.colour-7 {
   background-color: #9c1d10;
 }
-nav.cmn-tile-nav li.colour-7 a:after,nav.cmn-tile-nav li.colour-7 a:before{
-   border-top: 27px solid #9c1d10;
+nav.cmn-tile-nav li.colour-7 a:after,
+nav.cmn-tile-nav li.colour-7 a:before {
+  border-top: 27px solid #9c1d10;
 }
 nav.cmn-tile-nav li.colour-7 a {
   background-color: #9c1d10;
 }
-nav.cmn-tile-nav li.colour-7:hover, nav.cmn-tile-nav li.colour-7:hover a {
+nav.cmn-tile-nav li.colour-7:hover,
+nav.cmn-tile-nav li.colour-7:hover a {
   background-color: #400a04;
 }
-nav.cmn-tile-nav li.colour-7:hover a:after, nav.cmn-tile-nav li.colour-7:hover a:before{
+nav.cmn-tile-nav li.colour-7:hover a:after,
+nav.cmn-tile-nav li.colour-7:hover a:before {
   border-top: 27px solid #400a04;
 }
 nav.cmn-tile-nav li.colour-8 {
   background-color: #b72112;
 }
-nav.cmn-tile-nav li.colour-8 a:after,nav.cmn-tile-nav li.colour-8 a:before{
-   border-top: 27px solid #b72112;
+nav.cmn-tile-nav li.colour-8 a:after,
+nav.cmn-tile-nav li.colour-8 a:before {
+  border-top: 27px solid #b72112;
 }
 nav.cmn-tile-nav li.colour-8 a {
   background-color: #b72112;
 }
-nav.cmn-tile-nav li.colour-8:hover, nav.cmn-tile-nav li.colour-8:hover a {
+nav.cmn-tile-nav li.colour-8:hover,
+nav.cmn-tile-nav li.colour-8:hover a {
   background-color: #7e1408;
 }
-nav.cmn-tile-nav li.colour-8:hover a:after, nav.cmn-tile-nav li.colour-8:hover a:before{
+nav.cmn-tile-nav li.colour-8:hover a:after,
+nav.cmn-tile-nav li.colour-8:hover a:before {
   border-top: 27px solid #7e1408;
 }
 
@@ -245,7 +270,8 @@ a.nav-toggle {
   padding: 20px;
   background-color: #dce6f0;
   color: #646464;
-  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
   text-align: center;
 }
 a.nav-toggle:hover {

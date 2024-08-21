@@ -1,5 +1,4 @@
-
-<?php include_once __DIR__.'/templates/header.php'; ?>
+<?php include_once __DIR__ . '/templates/header.php'; ?>
 
 <!--////////////////////////////////////Container-->
 <section id="container" class="sub-page">
@@ -14,34 +13,61 @@
 			<div class="wrap-content">
 				<article>
 					<div class="art-header">
-						<a href="#"><h3>Nam libero tempore, cum soluta nobis est </h3></a>
+						<a href="#">
+							<h3>Nam libero tempore, cum soluta nobis est </h3>
+						</a>
 						<div class="info">Posted on June 22, 2010 in: <a href="#">Event</a></div>
 					</div>
 					<div class="art-content">
 						<img src="images/6.jpg" />
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+							et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+							et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum.
+							Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+							magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+							rebum. labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 					</div>
 					<a class="button button02" href="#">MORE</a>
 				</article>
 				<article>
 					<div class="art-header">
-						<a href="#"><h3>Nam libero tempore, cum soluta nobis est </h3></a>
+						<a href="#">
+							<h3>Nam libero tempore, cum soluta nobis est </h3>
+						</a>
 						<div class="info">Posted on June 22, 2010 in: <a href="#">Event</a></div>
 					</div>
 					<div class="art-content">
 						<img src="images/4.jpg" />
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+							et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+							et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum.
+							Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+							magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+							rebum. labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 					</div>
 					<a class="button button02" href="#">MORE</a>
 				</article>
 				<article>
 					<div class="art-header">
-						<a href="#"><h3>Nam libero tempore, cum soluta nobis est </h3></a>
+						<a href="#">
+							<h3>Nam libero tempore, cum soluta nobis est </h3>
+						</a>
 						<div class="info">Posted on June 22, 2010 in: <a href="#">Event</a></div>
 					</div>
 					<div class="art-content">
 						<img src="images/5.jpg" />
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+							et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+							et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum.
+							Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+							magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+							rebum. labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 					</div>
 					<a class="button button02" href="#">MORE</a>
 				</article>
@@ -55,8 +81,9 @@
 						<h5>About Us</h5>
 					</div>
 					<div class="wid-content">
-						<img src="images/15.jpg"/>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+						<img src="images/15.jpg" />
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 					</div>
 				</div>
 				<!---- Start Widget ---->
@@ -66,24 +93,24 @@
 					</div>
 					<div class="wid-content">
 						<div class="post">
-							<a href="#"><img src="images/15.jpg"/></a>
+							<a href="#"><img src="images/15.jpg" /></a>
 							<div class="wrapper">
-							  <h5><a href="#">Lorem ipsum dolor</a></h5>
-							   <span>$25 - $26</span>
+								<h5><a href="#">Lorem ipsum dolor</a></h5>
+								<span>$25 - $26</span>
 							</div>
 						</div>
 						<div class="post">
-							<a href="#"><img src="images/14.jpg"/></a>
+							<a href="#"><img src="images/14.jpg" /></a>
 							<div class="wrapper">
-							  <h5><a href="#">Lorem ipsum dolor</a></h5>
-							  <span>$25 - $26</span>
+								<h5><a href="#">Lorem ipsum dolor</a></h5>
+								<span>$25 - $26</span>
 							</div>
 						</div>
 						<div class="post">
-							<a href="#"><img src="images/13.jpg"/></a>
+							<a href="#"><img src="images/13.jpg" /></a>
 							<div class="wrapper">
-							  <h5><a href="#">Lorem ipsum dolor</a></h5>
-							   <span>$25 - $26</span>
+								<h5><a href="#">Lorem ipsum dolor</a></h5>
+								<span>$25 - $26</span>
 							</div>
 						</div>
 					</div>
@@ -122,5 +149,5 @@
 		</div>
 	</div>
 </section>
- <!--//////////////////////////////////////footer-->
- <?php include_once __DIR__.'/templates/footer.php'; ?>
+<!--//////////////////////////////////////footer-->
+<?php include_once __DIR__ . '/templates/footer.php'; ?>

@@ -1,14 +1,15 @@
 <?php
 
 
-// Basic Themes Options
+// Basic Themes Options Header
 
-$themeOption = [
+$themeOption =    [
     "title"          => "zItely Food",
     "subtitle"       => "Free Restaurant Food",
     "email"          => "imran.ppi453@gmail.com",
     "phone"          => "01756041512",
-    "social"     => [
+    "social"     =>
+    [
         [
             "title"         => "Skype",
             "className"     => "fa fa-skype",
@@ -32,21 +33,59 @@ $themeOption = [
 
     ],
 
-    "logo"          => [
+    "logo"          =>
+    [
         "name"       => "zFood",
         "image"      => "images/logo.png",
         "link"       => "index.php",
 
     ],
+
     "text"          => "LinkedIn is a business and employment-focused social media platform ",
-
-    "copyright"     => "Copyright 2024 - Designed by IMRAN"
-
-
-
 ];
 
+// Basic Themes Options Footer
+$footer =    [
+    "side1" =>
+    [
+        "title"     => "Customer Testimonials",
+        "name"      => "Nick Roach",
+        "photo"     => "images/a-1.jpg",
+        "desc"      => "Pellentesque elementum leo et justo dapibus convalli. In justo nibh, congue nec dapibus ac, placerat eget sem. Nunc consequat felis non elit ultricies in varius massa laoreet. Aenean lectus nisl, ellentesque in fermentum sit amet, convallis a lorem condimentum mollis. Aenean ectus nisl, ellentesque in fermentum sit amet.",
+    ],
 
+    "side2" => [
+        "title"     => "Location",
+        "map"       => "https://maps.app.goo.gl/FbMb6ETDbTEiFg8o9",
+    ],
+
+    "side3" => [
+        "title"         => "Open Daily",
+        "timeZone"      => "Nick Roach",
+        "heading"       => "Need help getting home?",
+        "desc"          => "We will call a cab for you!",
+    ],
+
+    "copyright"     => "Copyright 2024 - Designed by IMRAN",
+
+    "quicklink" =>
+    [
+        [
+            "title"     => "Privacy Policy",
+            "link"      => "#",
+        ],
+        [
+            "title"     => "Terms of Use",
+            "link"      => "#",
+        ],
+        [
+            "title"     => "Menu",
+            "link"      => "#",
+        ],
+    ]
+];
+
+// Menu Option
 $menu = [
     [
         "name"      => "Home",
@@ -84,7 +123,7 @@ $menu = [
 
 ];
 
-
+// Banner Option
 $banner = [
     [
         "image"     => "https://www.foodiesfeed.com/wp-content/uploads/2023/09/healthy-food.jpg",
@@ -204,46 +243,132 @@ $menucard = [
 
 ];
 
-
-
-
-$footer = [
-    "side1" => [
-        "title"     => "Customer Testimonials",
-        "name"      => "Nick Roach",
-        "photo"     => "https://thumbs.dreamstime.com/b/young-indian-man-happy-outdoors-looking-camera-39595562.jpg",
-
-        "size"      => "width= 100px",
-        "desc"      => "Pellentesque elementum leo et justo dapibus convalli. In justo nibh, congue nec dapibus ac, placerat eget sem. Nunc consequat felis non elit ultricies in varius massa laoreet. Aenean lectus nisl, ellentesque in fermentum sit amet, convallis a lorem condimentum mollis. Aenean lectus nisl, ellentesque in fermentum sit amet.",
-
-    ],
-    "side2" => [
-        "title"     => "Location",
-        "map"       => "https://maps.app.goo.gl/FbMb6ETDbTEiFg8o9",
-    ],
-
-    "side3" => [
-        "title"         => "Open Daily",
-        "timeZone"      => "Nick Roach",
-        "heading"       => "Need help getting home?",
-        "desc"          => "We will call a cab for you!",
-    ],
-
-
-];
-
-$quicklink = [
-
+$menus = [
     [
-        "title"     => "Privacy Policy",
-        "link"      => "#",
+        "new_title"     => "Pasta Salad",
+        "items"         =>
+        [
+            [
+                "photo"   => "images/4.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/5.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/6.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+        ]
     ],
     [
-        "title"     => "Terms of Use",
-        "link"      => "#",
+        "new_title"     => "Food Salad",
+        "items"         =>
+        [
+            [
+                "photo"   => "images/7.jpg",
+                "name"    => "Food Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/8.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/9.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+        ]
     ],
     [
-        "title"     => "Menu",
-        "link"      => "#",
+        "new_title"     => "Fish Salad",
+        "items"         =>
+        [
+            [
+                "photo"   => "images/10.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/11.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/13.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+        ]
     ],
+    [
+        "new_title"     => "Fish Salad",
+        "items"         =>
+        [
+            [
+                "photo"   => "images/10.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/11.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/13.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+        ]
+    ],
+    [
+        "new_title"     => "Fish Salad",
+        "items"         =>
+        [
+            [
+                "photo"   => "images/10.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/11.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/13.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+        ]
+    ],
+    [
+        "new_title"     => "Fish Salad",
+        "items"         =>
+        [
+            [
+                "photo"   => "images/10.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/11.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+            [
+                "photo"   => "images/13.jpg",
+                "name"    => "Elish Pasta",
+                "price"   => "$35 - $40",
+            ],
+        ]
+    ],
+
 ];

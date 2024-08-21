@@ -1,10 +1,12 @@
 .rslides_tabs {
   list-style: none;
   padding: 0;
-  background: rgba(0,0,0,.25);
-  box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
-  -moz-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
-  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0 0 1px rgba(255, 255, 255, 0.3),
+    inset 0 0 5px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.3),
+    inset 0 0 5px rgba(0, 0, 0, 1);
   font-size: 18px;
   list-style: none;
   margin: 0 auto 50px;
@@ -12,13 +14,13 @@
   padding: 10px 0;
   text-align: center;
   width: 100%;
-  }
+}
 
 .rslides_tabs li {
   display: inline;
   float: none;
   margin-right: 1px;
-  }
+}
 
 .rslides_tabs a {
   width: auto;
@@ -26,23 +28,23 @@
   padding: 9px 20px;
   height: auto;
   display: inline;
-  }
+}
 
 .rslides_tabs li:first-child {
   margin-left: 0;
-  }
+}
 
 .rslides_tabs .rslides_here a {
-  background: rgba(255,255,255,.1);
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
   font-weight: bold;
-  }
+}
 
 .callbacks_container {
   position: relative;
-  z-index:-1;
+  z-index: -1;
   width: 100%;
-  }
+}
 
 .callbacks {
   position: relative;
@@ -51,14 +53,14 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  }
+}
 
 .callbacks li {
   position: absolute;
   width: 100%;
   left: 0;
   top: 0;
-  }
+}
 
 .callbacks img {
   display: block;
@@ -67,7 +69,7 @@
   max-height: auto;
   width: 100%;
   border: 0;
-  }
+}
 
 .callbacks .caption {
   display: inline-block;
@@ -77,28 +79,28 @@
   text-shadow: none;
   color: #fff;
   background: #000;
-  background: rgba(0,0,0, .6);
+  background: rgba(0, 0, 0, 0.6);
   right: 3%;
   top: 61%;
   padding: 10px 20px;
   margin: 0;
   width: 45%;
   border-radius: 15px;
-  }
-.callbacks .caption h2{
-	font-size: 30px;
-	line-height: 1.2;
-  }
-  
+}
+.callbacks .caption h2 {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
 @media (max-width: 950px) {
   .callbacks .caption {
     display: none !important;
   }
-}  
-  
+}
+
 .callbacks_nav {
   position: absolute;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   top: 52%;
   left: 0;
   opacity: 0.7;
@@ -110,24 +112,22 @@
   width: 38px;
   background: transparent url(../images/themes.gif) no-repeat left top;
   margin-top: -45px;
-  }
-
+}
 
 .callbacks_nav.next {
   left: auto;
   background-position: right top;
   right: 0;
-  }
-
+}
 
 @media screen and (max-width: 600px) {
   h1 {
     font: 24px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
+  }
   .callbacks_nav {
     top: 47%;
-    }
   }
+}
 /*! http://responsiveslides.com v1.54 by @viljamis */
 
 .rslides {
@@ -137,7 +137,7 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  }
+}
 
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -146,13 +146,13 @@
   width: 100%;
   left: 0;
   top: 0;
-  }
+}
 
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
-  }
+}
 
 .rslides img {
   display: block;
@@ -160,6 +160,4 @@
   float: left;
   width: 100%;
   border: 0;
-  }
-  
-  
+}
