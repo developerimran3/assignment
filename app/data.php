@@ -33,7 +33,7 @@ $themeOption =    [
 
     ],
 
-    "logo"          =>
+    "logo"           =>
     [
         "name"       => "zFood",
         "image"      => "images/logo.png",
@@ -369,6 +369,118 @@ $menus = [
                 "price"   => "$35 - $40",
             ],
         ]
+    ],
+
+];
+
+$staff=[
+    [
+        "name"      => "Imran",
+        "image"     => "images/chef-1.jpg",
+        "social"    =>  [
+            [
+                "title"         => "Skype",
+                "className"     => "fa fa-skype",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "Facebook",
+                "className"     => "fa fa-facebook",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "LinkedIn ",
+                "className"     => "fa fa-linkedin ",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "Twitter ",
+                "className"     => "fa fa-twitter ",
+                "link"          => "#",
+            ],
+
+        ],
+    ],
+    [
+        "name"      => "Babar",
+        "image"     => "images/chef-2.jpg",
+        "social"    =>  [
+            [
+                "title"         => "Skype",
+                "className"     => "fa fa-skype",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "Facebook",
+                "className"     => "fa fa-facebook",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "LinkedIn ",
+                "className"     => "fa fa-linkedin ",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "Twitter ",
+                "className"     => "fa fa-twitter ",
+                "link"          => "#",
+            ],
+
+        ],
+    ],
+    [
+        "name"      => "Rakib",
+        "image"     => "images/chef-3.jpg",
+        "social"    =>  [
+            [
+                "title"         => "Skype",
+                "className"     => "fa fa-skype",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "Facebook",
+                "className"     => "fa fa-facebook",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "LinkedIn ",
+                "className"     => "fa fa-linkedin ",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "Twitter ",
+                "className"     => "fa fa-twitter ",
+                "link"          => "#",
+            ],
+
+        ],
+    ],
+    [
+        "name"      => "Halim",
+        "image"     => "images/chef-4.jpg",
+        "social"    =>  [
+            [
+                "title"         => "Skype",
+                "className"     => "fa fa-skype",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "Facebook",
+                "className"     => "fa fa-facebook",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "LinkedIn ",
+                "className"     => "fa fa-linkedin ",
+                "link"          => "#",
+            ],
+            [
+                "title"         => "Twitter ",
+                "className"     => "fa fa-twitter ",
+                "link"          => "#",
+            ],
+
+        ],
     ],
 
 ];
