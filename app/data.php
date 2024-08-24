@@ -484,3 +484,32 @@ $staff=[
     ],
 
 ];
+
+$gallery=[
+    [
+        "image"     => "images/4.jpg",
+        "desc"      => "Lorem  ispam 1",
+        "link"      => "#",
+    ],
+    [
+        "image"     => "images/5.jpg",
+        "desc"      => "Lorem  ispam 2",
+        "link"      => "#",
+    ],
+    [
+        "image"     => "images/6.jpg",
+        "desc"      => "Lorem  ispam 3",
+        "link"      => "#",
+    ],
+    [
+        "image"     => "images/7.jpg",
+        "desc"      => "Lorem  ispam 4",
+        "link"      => "#",
+    ],
+    [
+        "image"     => "images/8.jpg",
+        "desc"      => "Lorem  ispam 5",
+        "link"      => "#",
+    ], 
+    
+];

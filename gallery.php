@@ -11,130 +11,18 @@
         <div id="main-content">
             <div class="wrap-content">
                 <div class="row">
+                <?php foreach ($gallery as $item): ?>
                     <div class="col-1-4">
                         <div class="zoom-container">
-                            <a href="#">
+                            <a href="<?php echo $item["link"] ?>">
                                 <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
+                                    <span><?php echo $item["desc"] ?></span>
                                 </span>
-                                <img src="images/4.jpg" />
+                                <img src="<?php echo $item["image"] ?>" />
                             </a>
                         </div>
                     </div>
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/5.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/6.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/7.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/8.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/9.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/10.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/11.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/12.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/13.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/14.jpg" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-1-4">
-                        <div class="zoom-container">
-                            <a href="#">
-                                <span class="zoom-caption">
-                                    <span>Lorem ipsum</span>
-                                </span>
-                                <img src="images/15.jpg" />
-                            </a>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
